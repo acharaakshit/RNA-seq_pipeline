@@ -1,4 +1,4 @@
-# stringtie -L /home/akshit/Downloads/RNA_nanopore.liver.C1R1_mapping_E94_minimap2_primary_no_read_less_than_80QC_genome_convert.sorted.bam
+# stringtie -L /home/akshit/RNA_nanopore.liver.C1R1_mapping_E94_minimap2_primary_no_read_less_than_80QC_genome_convert.sorted.bam
 # StringTie version 2.1.1
 1	StringTie	transcript	4774302	4785720	1000	-	.	gene_id "STRG.1"; transcript_id "STRG.1.1"; cov "2.782873"; FPKM "11.951677"; TPM "17.279774";
 1	StringTie	exon	4774302	4774516	1000	-	.	gene_id "STRG.1"; transcript_id "STRG.1.1"; exon_number "1"; cov "2.344186";

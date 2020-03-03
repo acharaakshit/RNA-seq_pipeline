@@ -1,3 +1,5 @@
+# stringtie -L /home/akshit/RNA_nanopore.brain.C1R1_mapping_E94_minimap2_primary_no_read_less_than_80QC_genome_convert.sorted.bam
+# StringTie version 2.1.1
 1	StringTie	transcript	4776377	4785730	1000	-	.	gene_id "STRG.1"; transcript_id "STRG.1.1"; cov "17.940662"; FPKM "67.242661"; TPM "124.083046";
 1	StringTie	exon	4776377	4776801	1000	-	.	gene_id "STRG.1"; transcript_id "STRG.1.1"; exon_number "1"; cov "18.367060";
 1	StringTie	exon	4777525	4777648	1000	-	.	gene_id "STRG.1"; transcript_id "STRG.1.1"; exon_number "2"; cov "19.766129";
@@ -997,5 +999,3 @@
 1	StringTie	exon	52789433	52790217	1000	-	.	gene_id "STRG.130"; transcript_id "STRG.130.1"; exon_number "1"; cov "2.615287";
 1	StringTie	exon	52791688	52791862	1000	-	.	gene_id "STRG.130"; transcript_id "STRG.130.1"; exon_number "2"; cov "2.000000";
 1	StringTie	exon	52794470	52794670	1000	-	.	gene_id "STRG.130"; transcript_id "STRG.130.1"; exon_number "3"; cov "2.000000";
-1	StringTie	exon	52797041	52797101	1000	-	.	gene_id "STRG.130"; transcript_id "STRG.130.1"; exon_number "4"; cov "2.000000";
-1	StringTie	exon	52799285	52799536	1000	-	.	gene_id "STRG.130"; transcript_id "STRG.130.1"; exon_number "5"; cov "1.396825";
