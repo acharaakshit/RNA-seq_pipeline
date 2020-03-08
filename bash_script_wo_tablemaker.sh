@@ -6,17 +6,14 @@ eval "tail -n +1 ~/liver.gtf | head -n 1001 > ~/first1000_liver.gtf"
 eval "stringtie --merge ~/first1000_brain.gtf -o merged_brain.gtf"
 eval "stringtie --merge ~/first1000_liver.gtf -o merged_liver.gtf"
 
-VAR1=`find . -name brain_output -print`
-VAR2=`find . -name liver_output -print`
-
-if [ -z "$VAR1" ]
+if [ -z ~/brain_output ];
 then
 	eval "mkdir ~/brain_output"
 else 
 	eval "rm -rf ~/brain_output"
 fi	
 
-if [ -z "$VAR2" ]
+if [ -z ~/liver_output ];
 then
 	eval "mkdir ~/liver_output"
 else
