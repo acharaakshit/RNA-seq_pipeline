@@ -1,11 +1,12 @@
 # RNA-seq_pipeline
 
+Background:
 
-These are the selection test scripts for the GSOC-project 'Creating a new pipeline for long-read RNA-seq using StringTie v2'
+The majority of contemporary genomics and transcriptomics research is carried out using short-read technology such as the output of Illumina sequencers. However, newer long-read technologies such as PacBio and Oxford Nanopore (ONT) are becoming more prevalent due to the advantages they offer over short reads. The main advantage of long reads is that they span a much larger portion of the genome or transcriptome, making it easier to detect events such as structural variants or isoforms. As more researchers begin to take advantage of long reads, GenPipes needs to evolve and support long-read technology in its main pipelines.
 
-NOTE: Please give co-authorship if you are using or modifying this code!
+You need to install Stringtie v2 , tablemaker, minimap2 and samtools in your system and add them to the system path. Also install the ballgown library in R.
 
-You need to install Stringtie v2 , tablemaker in your system and add them to the system path. Also install the ballgown library in R.
+Please store everything in your home directory, custom paths have not been provided.
 
 Approach 1
 
@@ -36,6 +37,6 @@ existing output files, then the folder containing the files is removed.
 This approach doesn't produce any errors and works smoothly.
 
 
-Another script that uses minimap2 and samtools has also been created. 
+Another script (example pipeline: bash/_script_w/_minimap.sh) that uses minimap2 and samtools has also been created. 
 
 
